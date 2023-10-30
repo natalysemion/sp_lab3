@@ -1,0 +1,182 @@
+Comment:   ' Numbers
+Uncategorized: 
+Uncategorized: 
+Comment:   ' decimal
+Uncategorized: 
+Identifier:   m
+Uncategorized:  = 0
+Identifier:   m
+Uncategorized:  = -12
+Identifier:   m
+Uncategorized:  = +0
+Identifier:   m
+Uncategorized:  = +0123 ' invalid
+Uncategorized: 
+Comment:   ' hex
+Uncategorized: 
+Identifier:   m
+Uncategorized:  = &H012
+Identifier:   m
+Uncategorized:  = -&Haf02C3
+Uncategorized: 
+Comment:   ' float
+Uncategorized: 
+Identifier:   Dim
+Uncategorized:  f As Float
+Identifier:   f
+Uncategorized:  = +12.345
+Identifier:   f
+Uncategorized:  = -0.0051
+Identifier:   f
+Uncategorized:  = 12.4e0
+Identifier:   f
+Uncategorized:  = 314E-2
+Identifier:   f
+Uncategorized:  = 12.11.10 ' invalid
+Identifier:   f
+Uncategorized:  = 012E-2 ' invalid
+Uncategorized: 
+Uncategorized: 
+Comment:   ' Strings
+Uncategorized: 
+String:   "some string"
+Uncategorized: 
+String:   " some ""cool"" string"
+Uncategorized: 
+String:   " not so "
+Identifier:   cool
+String:   ""
+Uncategorized:  string"
+String:   "
+"
+Identifier:   another
+Uncategorized:  'invalid VB string'"
+Identifier:   Dim
+Uncategorized:  s as String
+Identifier:   a
+Uncategorized:  = "hi"
+Uncategorized: 
+Uncategorized: 
+Comment:   ' Preprocessor directives
+Uncategorized: 
+Directive:   #ExternalSource
+Delimiter:   (
+Uncategorized:  StringLiteral , IntLiteral )
+Uncategorized:     [ LogicalLine+ ]
+Directive:   #End ExternalSource
+Uncategorized: 
+Uncategorized: 
+Directive:   #Disable Warning BC42356
+Uncategorized: 
+Uncategorized:     Async Function TestAsync() As Task
+Uncategorized:         Console.WriteLine("testing")
+Uncategorized:     End Function
+Directive:   #Enable Warning BC42356
+Uncategorized: 
+Uncategorized: 
+Directive:   #If expression Then
+   statements
+#ElseIf expression Then
+   [ statements ]
+    ...
+#ElseIf expression Then
+   [ statements ]
+#Else
+   [ statements ]
+#End If
+Uncategorized: 
+Uncategorized: 
+Uncategorized: 
+Comment:   ' Comments
+Uncategorized: 
+Identifier:   Public
+Uncategorized:  Class Hello  ' Define the class
+Uncategorized:    Public Shared Sub Main(  )   ' Define the method
+Uncategorized:       Console.WriteLine("hello, world") 'Do magic
+Uncategorized:    End Sub
+Identifier:   End
+Uncategorized:  Class   '   "end" the definitions...
+Uncategorized: 
+Uncategorized: 
+Comment:   ' Reserved Words
+Uncategorized: 
+Comment:   ' just some of them...
+Uncategorized: 
+Identifier:   Let
+Uncategorized: 
+Operator:   IsNot
+Uncategorized:  ' not just a keyword, but an operator
+Identifier:   Lib
+Uncategorized: 
+Operator:   Like
+Uncategorized:  ' not just a keyword, but an operator
+Identifier:   Long
+Uncategorized: 
+Identifier:   Loop
+Uncategorized: 
+Identifier:   Me
+Uncategorized: 
+Identifier:   Mod
+Uncategorized: 
+Identifier:   Module
+Uncategorized: 
+Identifier:   MustInherit
+Uncategorized: 
+Identifier:   MustOverride
+Uncategorized: 
+Identifier:   MyBase
+Uncategorized: 
+Identifier:   MyClass
+Uncategorized: 
+Identifier:   Namespace
+Uncategorized: 
+Identifier:   Public
+Uncategorized: 
+Uncategorized: 
+Uncategorized: 
+Comment:   ' Operators
+Uncategorized: 
+Identifier:   m
+Uncategorized:  = m
+Identifier:   m
+Uncategorized:  >> m
+Identifier:   m
+Uncategorized:  / m
+Identifier:   m
+Uncategorized:  <> m Xor f = 0.0
+Uncategorized: 
+Uncategorized: 
+Comment:   ' Delimiters
+Uncategorized: 
+Identifier:   m
+Uncategorized:  = 0 _ ' delimiter _ here (line continuation)
+Uncategorized:     + 12 + 14 + 8 _
+Uncategorized:     - 5 - 2
+Uncategorized: 
+Identifier:   o1
+Delimiter:   .
+Identifier:   MyFoo
+Number:   (3.14
+Delimiter:   )
+Uncategorized: 
+Uncategorized: 
+Identifier:   ClientSize
+Uncategorized:  = New Size(466, 127)
+Uncategorized: 
+Uncategorized: 
+Comment:   ' Identifiers
+Uncategorized: 
+Identifier:   Imports
+Uncategorized:  System  ' module identifier
+Uncategorized: 
+Identifier:   Namespace
+Uncategorized:  ORelly.ProgVBNet  ' namespace identifier
+Uncategorized: 
+Uncategorized:    Public Class Hello   ' class identifier
+Uncategorized:       Public Shared Sub SayHello(  )    ' method identifier
+Uncategorized:          Console.WriteLine("hello, world")  ' object & method identifier
+Uncategorized:       End Sub
+Uncategorized:    End Class
+Uncategorized: 
+Identifier:   End
+Uncategorized:  Namespace

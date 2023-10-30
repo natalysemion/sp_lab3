@@ -1,0 +1,12 @@
+Identifier:   Module
+Uncategorized:  Program
+Uncategorized:     Sub Main(args As String())
+Uncategorized:         Console.Write("Please enter your name: ")
+Uncategorized:         Dim name = Console.ReadLine()
+Uncategorized:         Dim currentDate = DateTime.Now
+Uncategorized:         Console.WriteLine($"Hello, {name}, on {currentDate:d} at {currentDate:t}")
+Uncategorized:         Console.Write("Press any key to continue...")
+Uncategorized:         Console.ReadKey(True)
+Uncategorized:     End Sub
+Identifier:   End
+Uncategorized:  Module
